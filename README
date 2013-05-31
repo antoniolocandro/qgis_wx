@@ -1,0 +1,3 @@
+Project to capture bounding box of selected polygons in QGIS & write extents to file. Dropbox or other
+synching service used to update thos interested in this data.
+
