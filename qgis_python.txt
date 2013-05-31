@@ -1,0 +1,7 @@
+# must select polygon
+layer = qgis.utils.iface.activeLayer()
+# only want the first feature
+feature = layer.selectedFeatures()[0]
+# get bounding box as string
+feature.geometry().boundingBox().toString()
+
