@@ -1,0 +1,12 @@
+http://wms.gsfc.nasa.gov/cgi-bin/goes-wms.cgi
+
+
+http://wwwghcc.msfc.nasa.gov/cgi-bin/get-goes?satellite=GOES-E%20HURRICANE&lat=10&lon=-80&palette=spect.pal&zoom=4&quality=100&width=600&height=400&mapcolor=cyan
+
+
+http://www.cocesna.org/subpagina.ais.php?id=331&lng=0
+
+
+http://www.aviationweather.gov/iffdp/fdwnda
+
+ftp://geo.msfc.nasa.gov/Weather/
