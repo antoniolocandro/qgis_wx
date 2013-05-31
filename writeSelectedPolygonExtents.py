@@ -8,7 +8,8 @@ def run_script(iface):
     import os
     import sys
     
-    outFile = "/Users/drownedfrog/Projects/wxHondrusas_antinio/outputPolygonExtents.txt"
+    # location to write text file with bounding coordinates
+    bboxCoordFile = "/Users/drownedfrog/Projects/wxHondrusas_antinio/outputPolygonExtents.txt"
     
     # must select polygon
     layer = iface.activeLayer()
@@ -18,7 +19,7 @@ def run_script(iface):
     bbox = feature.geometry().boundingBox().toString()
     
     # write contents to file
-    f = open(outFile,"w")
+    f = open(bboxCoordFile,"w")
     f.write(bbox)
     f.close()
 
