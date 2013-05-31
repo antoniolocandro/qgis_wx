@@ -10,7 +10,7 @@ def run_script(iface):
 	outFile = "/Users/drownedfrog/Projects/wxHondrusas_antinio/outputPolygonExtents.txt"
 	
 	# must select polygon
-	layer = qgis.utils.iface.activeLayer()
+	layer = iface.activeLayer()
 	# only want the first feature
 	feature = layer.selectedFeatures()[0]
 	# get bounding box as string
