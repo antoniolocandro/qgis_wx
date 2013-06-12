@@ -9,7 +9,7 @@ def run_script(iface):
     import sys
     
     # location to write text file with bounding coordinates
-    bboxCoordFile = "/Users/drownedfrog/Projects/wxHondrusas_antinio/outputPolygonExtents.txt"
+    bboxCoordFile = "/temp/WX_BBOX.txt"
     
     #TODO: validate polygon is selected. provide message with instructions.
     # must select polygon
